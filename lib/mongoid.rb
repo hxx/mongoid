@@ -61,7 +61,7 @@ module Mongoid
   #
   # @since 3.0.0
   def default_session
-    banana
+    Sessions.default
   end
 
   # Disconnect all active sessions.
